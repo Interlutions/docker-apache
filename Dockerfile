@@ -1,4 +1,4 @@
-FROM httpd:alpine
+FROM httpd:2.4-alpine
 
 # Install timezone change utils
 RUN apk add --no-cache tzdata
